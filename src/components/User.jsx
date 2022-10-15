@@ -1,8 +1,8 @@
 import React from "react";
 
-function About() {
+function User() {
   return (
-    <div className="about">
+    <div className="user">
       <div class="container">
             <h1 class="text-center mt-5">Admin Page</h1> 
       </div>
@@ -10,4 +10,4 @@ function About() {
   );
 }
 
-export default About;
+export default User;

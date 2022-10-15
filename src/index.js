@@ -7,11 +7,10 @@ import {
   Navigation,
   Footer,
   Home,
-  About,
+  User,
   Registration,
-  Blog,
-  Posts,
-  Post
+  Geozone
+  
 } from "./components";
 
 ReactDOM.render(
@@ -19,11 +18,9 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<User />} />
       <Route path="/registration" element={<Registration />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
+      <Route path="/blog" element={<Geozone />}>
       </Route>
     </Routes>
     <Footer />
