@@ -3,9 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
-      <div class="container-fluid">
-            
-                
+      <div class="container-fluid ">        
           <form class="form-inline">
             <div class="form-group">
               <label for="search">Search:</label>
@@ -13,16 +11,17 @@ function Home() {
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
+          
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown button
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li class="dropdown-item">Action</li>
-              <li class="dropdown-item">Another action</li>
-    
-            </ul>
-          </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>  
 
               
             
