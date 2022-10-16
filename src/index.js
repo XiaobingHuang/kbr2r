@@ -12,6 +12,7 @@ import {
   Geozone
   
 } from "./components";
+import ScriptTag from 'react-script-tag';
 
 
 
@@ -27,6 +28,9 @@ ReactDOM.render(
       </Route>
     </Routes>
     <Footer />
+    <ScriptTag isHydrating={true} type="text/javascript" 
+      src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
   </Router>,
 
   document.getElementById("root")
